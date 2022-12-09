@@ -38,7 +38,7 @@ export default function Quiz() {
   function renderTab(tab, score) {
     if (tab === "questions") {
       return (
-        <div class="bg-[#D6EADF] w-screen h-screen flex m-auto items-center flex-col text-center">
+        <div class="bg-[#D6EADF] w-screen h-screen flex m-auto items-center flex-col text-center pb-40">
           <div class="flex items-center justify-center text-3xl">
             <img src="/SmallLogo.png" />
             <h1 class="text-[#5F7BB1] headingFont">
