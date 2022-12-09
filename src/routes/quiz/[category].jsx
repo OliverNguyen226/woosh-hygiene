@@ -10,7 +10,6 @@ export default function Quiz() {
   const [score, setScore] = createSignal(0);
   const params = useParams();
   const questions = db[params.category].sort(() => 0.5 - Math.random());
-  //   let score = 0;
   const nextQuestion = () => {
     if (currentQuestion() + 1 < questions.length) {
       setCurrentQuestion(currentQuestion() + 1);
@@ -52,7 +51,7 @@ export default function Quiz() {
             <p class="my-4 text-xl">{questions[currentQuestion()].text}</p>
             <ul class="bg-[#F1F7FF] p-4">
               {questions[currentQuestion()].answers.map((answer) => (
-                <li class="flex items-center justify-between border-b border-black last:border-0 p-2">
+                <li class="flex items-center justify-between border-b border-black last:border-0 p-8">
                   <p class="text-[#1256D9]">{answer.text}</p>
                   {questions[currentQuestion()].result?.id == answer.id ? (
                     <input

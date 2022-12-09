@@ -109,7 +109,6 @@ export default function Resource() {
           </ul>
         </div>
       </div>
-
       <Nav />
     </div>
   );

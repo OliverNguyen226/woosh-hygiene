@@ -42,7 +42,7 @@ export default function Result({ score, onShowAnswers }) {
         Based on your answers, you got a score of {(score / 10) * 100}%, which
         is {result.rate}
       </div>
-      <p>
+      <p class="mb-40">
         Go to the{" "}
         <A href="/resource">
           <span class="underline">Resources page</span>
