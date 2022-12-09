@@ -3,7 +3,7 @@ import { A } from "solid-start";
 
 export default function QuizCategory() {
   return (
-    <div class="bg-[#D6EADF] w-screen h-screen flex m-auto items-center  flex-col -my-4 pd-40">
+    <div class="bg-[#D6EADF] w-screen flex m-0 items-center text-center flex-col pb-40">
       <img src="/wooshLogo.png" class="mt-12 mb-6 w-20 h-20" />
       <p class="text-[#5F7BB1] headingFont text-3xl font-semibold p-2 ">
         Pick a quiz!

@@ -38,7 +38,7 @@ export default function Quiz() {
   function renderTab(tab, score) {
     if (tab === "questions") {
       return (
-        <div class="bg-[#D6EADF] w-screen h-screen flex m-auto items-center flex-col text-center pb-40">
+        <div class="bg-[#D6EADF] w-screen flex m-auto items-center flex-col text-center pb-40">
           <div class="flex items-center justify-center text-3xl">
             <img src="/SmallLogo.png" />
             <h1 class="text-[#5F7BB1] headingFont">
@@ -97,7 +97,7 @@ export default function Quiz() {
       return <Result score={score} onShowAnswers={handleShowAnswers} />;
     } else if (tab === "answers") {
       return (
-        <div class="bg-[#D6EADF] w-screen h-100 flex m-auto items-center flex-col text-center pb-32">
+        <div class="bg-[#D6EADF] w-screen flex m-auto items-center flex-col text-center pb-40">
           <div class="flex items-center justify-center text-3xl">
             <img src="/SmallLogo.png" />
             <div class="text-left pl-4">
