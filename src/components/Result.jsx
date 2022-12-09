@@ -27,7 +27,7 @@ export default function Result({ score, onShowAnswers }) {
   }
 
   return (
-    <div class="bg-[#D6EADF] w-screen h-screen flex m-auto items-center flex-col text-center">
+    <div class="bg-[#D6EADF] w-screen h-screen flex m-auto items-center flex-col text-center pd-40s">
       <img src="/wooshLogo.png" class="mt-12 mb-6 w-20 h-20" />
       <h1 class="text-[#5F7BB1] headingFont text-3xl font-semibold p-2">
         Result
@@ -42,7 +42,7 @@ export default function Result({ score, onShowAnswers }) {
         Based on your answers, you got a score of {(score / 10) * 100}%, which
         is {result.rate}
       </div>
-      <p class="mb-40">
+      <p class="">
         Go to the{" "}
         <A href="/resource">
           <span class="underline">Resources page</span>
