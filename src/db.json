@@ -1,5 +1,5 @@
 {
-  "Oral": [
+  "oral": [
     {
       "text": "Water flosser can remove the biofilm from your teeth surfaces.",
       "answers": [
@@ -100,7 +100,7 @@
     }
   ],
 
-  "Hand": [
+  "hand": [
     {
       "text": "The appropriate times to wash hands is important than a certain number of times each day.",
       "answers": [
@@ -201,7 +201,7 @@
       ]
     }
   ],
-  "Hair": [
+  "hair": [
     {
       "text": "How often should you wash your hair?",
       "answers": [
@@ -357,7 +357,7 @@
       ]
     }
   ],
-  "Foot": [
+  "foot": [
     {
       "text": "How often should you trim your toenails?",
       "answers": [

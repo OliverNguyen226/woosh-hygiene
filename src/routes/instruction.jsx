@@ -65,7 +65,7 @@ export default function Instruction() {
         </div>
       </nav>
       <br />
-      <A href="/quiz">
+      <A href="/quizcategory">
         <p class="flex flex-row  my-auto items-center justify-center underline text-xl">
           Take a quiz
         </p>
