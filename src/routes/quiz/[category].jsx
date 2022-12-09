@@ -76,7 +76,7 @@ export default function Quiz() {
                 </li>
               ))}
             </ul>
-            <div class="w-screen flex items-center justify-around mt-6">
+            <div class="flex items-center justify-around mt-6">
               <button
                 class="bg-[#F1F7FF] py-4 px-8 text-[#5383DF] text-xl rounded-xl shadow-lg"
                 onClick={previousQuestion}
