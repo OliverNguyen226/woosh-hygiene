@@ -56,7 +56,7 @@ export default function Quiz() {
             <ul class="bg-[#F1F7FF] p-4">
               {questions[currentQuestion()].answers.map((answer) => (
                 <li class="flex items-center justify-between border-b border-black last:border-0 p-8">
-                  <p class="text-[#1256D9]">{answer.text}</p>
+                  <p class="text-[#1256D9] text-left">{answer.text}</p>
                   {questions[currentQuestion()].result?.id == answer.id ? (
                     <input
                       class="w-100 h-100"
@@ -125,7 +125,7 @@ export default function Quiz() {
                       answer.isCorrect ? "bg-[#AFFF71]" : ""
                     }`}
                   >
-                    <p class="text-[#1256D9]">{answer.text}</p>
+                    <p class="text-[#1256D9] text-left">{answer.text}</p>
                     {question.result?.id == answer.id ? (
                       <input
                         class="w-100 h-100"
