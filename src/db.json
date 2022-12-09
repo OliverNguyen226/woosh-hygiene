@@ -1,0 +1,490 @@
+{
+  "Oral": [
+    {
+      "text": "Water flosser can remove the biofilm from your teeth surfaces.",
+      "answers": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "WHO recommends that people should brush teeth ______ time(s) a day.",
+      "answers": [
+        { "text": "At least one-time", "isCorrect": false },
+        { "text": "At least two times", "isCorrect": true },
+        { "text": "At least three times", "isCorrect": false },
+        { "text": "As much as you can", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "How often you should floss to maintain good oral hygiene?",
+      "answers": [
+        { "text": "Once a day", "isCorrect": true },
+        { "text": "Once a week", "isCorrect": false },
+        { "text": "Once a month", "isCorrect": false },
+        { "text": "When I think I need to", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Brushing teeth right after eating is good for oral health",
+      "answers": [
+        { "text": "True", "isCorrect": false },
+        { "text": "False", "isCorrect": true }
+      ]
+    },
+    {
+      "text": "Brushing can clean _____ of teeth surfaces?",
+      "answers": [
+        { "text": "50%", "isCorrect": false },
+        { "text": "60%", "isCorrect": false },
+        { "text": "80%", "isCorrect": true },
+        { "text": "100%", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "How often should you replace your toothbrush?",
+      "answers": [
+        { "text": "Once per year", "isCorrect": false },
+        { "text": "Every 5-6 months", "isCorrect": true },
+        { "text": "Every 3-4 months", "isCorrect": false },
+        { "text": "Every 8-9 months", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "How long should you spend brushing your teeth?",
+      "answers": [
+        { "text": "30 seconds", "isCorrect": false },
+        { "text": "One minute", "isCorrect": true },
+        { "text": "Two minutes", "isCorrect": false },
+        { "text": "Four minutes", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Mouthwashes with fluoride help protect tooth enamel and prevent cavities.",
+      "answers": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "It is very important for you to include your tongue as part of your dental hygiene focus is the fact that it traps bacteria.",
+      "answers": [
+        { "text": "True", "isCorrect": true },
+        { "text": "False", "isCorrect": false }
+      ]
+    }
+  ],
+  "Hand": [
+    {
+      "text": "The appropriate times to wash hands is important than a certain number of times each day.",
+      "answers": [
+        { "id": 0, "text": "True", "isCorrect": true },
+        { "id": 1, "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "You need to wash your hands before preparing food, eating, caring for a wound, or caring for someone who is ill.",
+      "answers": [
+        { "id": 0, "text": "True", "isCorrect": true },
+        { "id": 1, "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "When do you need to wash your hands?",
+      "answers": [
+        { "id": 0, "text": "After preparing food", "isCorrect": false },
+        {
+          "id": 1,
+          "text": "after coughing, sneezing, blowing and your nose",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "after caring for a wound or someone who is ill",
+          "isCorrect": false
+        },
+        { "id": 3, "text": "All of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Hand washing is more beneficial during cold and flu season.",
+      "answers": [
+        { "id": 0, "text": "True", "isCorrect": true },
+        { "id": 1, "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Washing your hands helps prevent the spread of illness.",
+      "answers": [
+        { "id": 0, "text": "True", "isCorrect": true },
+        { "id": 1, "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Too much washing your hands can actually make you sick.",
+      "answers": [
+        { "id": 0, "text": "True", "isCorrect": false },
+        { "id": 1, "text": "False", "isCorrect": true }
+      ]
+    },
+    {
+      "text": "Hand washing cannot prevent about 30% of diarrhea-related sicknesses and about 20% of respiratory infections(e.g. colds)",
+      "answers": [
+        { "id": 0, "text": "True", "isCorrect": false },
+        { "id": 1, "text": "False", "isCorrect": true }
+      ]
+    },
+
+    {
+      "text": "Reducing the number of infectious diseases by washing hands frequently helps prevent the overuse of antibiotics. ",
+      "answers": [
+        { "id": 0, "text": "True", "isCorrect": true },
+        { "id": 1, "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "Hand washing cannot prevent about 30% of diarrhea-related sicknesses and about 20% of respiratory infections(e.g. colds)",
+      "answers": [
+        { "id": 0, "text": "True", "isCorrect": false },
+        { "id": 1, "text": "False", "isCorrect": true }
+      ]
+    },
+    {
+      "text": "Which is correct?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Using sanitizers is okay when hands are visibly dirty or greasy.",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "Sanitizers do get rid of all types of germs",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Washing hands with soap and water is the best way to get rid of germs in most situations",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "hand sanitizers might remove harmful chemicals from hands like pesticides and heavy metals.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "Hair": [
+    {
+      "text": "How often should you wash your hair?",
+      "answers": [
+        { "id": 0, "text": "Every day", "isCorrect": false },
+        { "id": 1, "text": "Once a week", "isCorrect": false },
+        { "id": 2, "text": "Every two weeks", "isCorrect": true },
+        { "id": 3, "text": "It depends on your hair type", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best way to dry your hair?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Rubbing it vigorously with a towel",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "Blowing it dry on the highest heat setting",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Air drying or using a low heat setting on your hair dryer",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Not drying it at all", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best brush to use on wet hair?",
+      "answers": [
+        { "id": 0, "text": "A boar bristle brush", "isCorrect": true },
+        {
+          "id": 1,
+          "text": "A plastic brush with widely spaced teeth",
+          "isCorrect": false
+        },
+        { "id": 2, "text": "A metal comb with fine teeth", "isCorrect": false },
+        { "id": 3, "text": "Any brush will do", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best way to protect your hair from heat damage?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Use a heat protectant spray before styling",
+          "isCorrect": true
+        },
+        {
+          "id": 1,
+          "text": "Only use heat styling tools on the lowest heat setting",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Avoid heat styling tools altogether",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "It's not possible to protect your hair from heat damage",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "Which of the following can cause dandruff?",
+      "answers": [
+        { "id": 0, "text": "Dry skin", "isCorrect": true },
+        {
+          "id": 1,
+          "text": "Not washing your hair often enough",
+          "isCorrect": false
+        },
+        { "id": 2, "text": "Using harsh hair products", "isCorrect": false },
+        { "id": 3, "text": "All of the above", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best way to prevent tangles in your hair?",
+      "answers": [
+        { "id": 0, "text": "Avoid brushing your hair", "isCorrect": false },
+        {
+          "id": 1,
+          "text": "Brush your hair from the roots to the ends",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Use a wide-toothed comb on wet hair",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Use a lot of hair gel", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "How can you tell if your hair is damaged?",
+      "answers": [
+        { "id": 0, "text": "It is dry and brittle", "isCorrect": true },
+        { "id": 1, "text": "It is oily and greasy", "isCorrect": false },
+        { "id": 2, "text": "It is soft and silky", "isCorrect": false },
+        { "id": 3, "text": "It is wavy and frizzy", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best way to treat split ends?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Use a deep conditioning treatment",
+          "isCorrect": true
+        },
+        { "id": 1, "text": "Cut them off with scissors", "isCorrect": true },
+        { "id": 2, "text": "Use a hair straightener", "isCorrect": false },
+        { "id": 3, "text": "Use a lot of hair gel", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "How can you prevent hair breakage?",
+      "answers": [
+        { "id": 0, "text": "Use a lot of hair products", "isCorrect": false },
+        { "id": 1, "text": "Avoid brushing your hair", "isCorrect": false },
+        {
+          "id": 2,
+          "text": "Use a wide-toothed comb on wet hair",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Use a lot of heat when styling your hair",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "What is the best way to keep your scalp healthy?",
+      "answers": [
+        { "id": 0, "text": "Use a lot of hair products", "isCorrect": false },
+        { "id": 1, "text": "Avoid washing your hair", "isCorrect": false },
+        {
+          "id": 2,
+          "text": "Use a gentle shampoo and conditioner",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "text": "Use a lot of heat when styling your hair",
+          "isCorrect": false
+        }
+      ]
+    }
+  ],
+  "Foot": [
+    {
+      "text": "How often should you trim your toenails?",
+      "answers": [
+        { "id": 0, "text": "Every day", "isCorrect": false },
+        { "id": 1, "text": "Once a week", "isCorrect": false },
+        { "id": 2, "text": "Every two weeks", "isCorrect": false },
+        {
+          "id": 3,
+          "text": "It depends on how quickly your toenails grow",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "text": "What is the best way to prevent blisters on your feet?",
+      "answers": [
+        { "id": 0, "text": "Wear socks with your shoes", "isCorrect": true },
+        {
+          "id": 1,
+          "text": "Use talcum powder on your feet",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Wear shoes that are too big for your feet",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Wear shoes that are too tight for your feet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "What is the best way to prevent blisters on your feet?",
+      "answers": [
+        { "id": 0, "text": "Wear socks with your shoes", "isCorrect": true },
+        {
+          "id": 1,
+          "text": "Use talcum powder on your feet",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Wear shoes that are too big for your feet",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Wear shoes that are too tight for your feet",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "What is the best way to prevent athlete's foot?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Wear socks made of natural fibers",
+          "isCorrect": true
+        },
+        {
+          "id": 1,
+          "text": "Wear socks made of synthetic fibers",
+          "isCorrect": false
+        },
+        { "id": 2, "text": "Avoid washing your feet", "isCorrect": false },
+        { "id": 3, "text": "Wear sandals all the time", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best way to treat a corn on your foot?",
+      "answers": [
+        { "id": 0, "text": "Soak your foot in warm water", "isCorrect": true },
+        {
+          "id": 1,
+          "text": "Cut the corn off with scissors",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Rub the corn with a pumice stone",
+          "isCorrect": true
+        },
+        { "id": 3, "text": "Ignore the corn", "isCorrect": false }
+      ]
+    },
+
+    {
+      "text": "What is the best way to prevent calluses on your feet?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Wear shoes that are too big for your feet",
+          "isCorrect": false
+        },
+        { "id": 1, "text": "Wear shoes that fit properly", "isCorrect": true },
+        { "id": 2, "text": "Wear high heels all the time", "isCorrect": false },
+        { "id": 3, "text": "Ignore the calluses", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best way to treat a foot fungus?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Apply antifungal cream to the affected area",
+          "isCorrect": true
+        },
+        { "id": 1, "text": "Soak your foot in bleach", "isCorrect": false },
+        { "id": 2, "text": "Ignore the fungus", "isCorrect": false },
+        {
+          "id": 3,
+          "text": "Apply moisturizer to the affected area",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "text": "What is the best way to prevent foot odor?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Wash your feet daily with soap and water",
+          "isCorrect": true
+        },
+        { "id": 1, "text": "Avoid wearing socks", "isCorrect": false },
+        {
+          "id": 2,
+          "text": "Wear shoes made of synthetic materials",
+          "isCorrect": false
+        },
+        { "id": 3, "text": "Ignore the odor", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best way to treat a foot sprain?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Apply ice to the affected area",
+          "isCorrect": true
+        },
+        {
+          "id": 1,
+          "text": "Apply heat to the affected area",
+          "isCorrect": false
+        },
+        { "id": 2, "text": "Ignore the sprain", "isCorrect": false },
+        { "id": 3, "text": "Massage the affected area", "isCorrect": false }
+      ]
+    }
+  ]
+}

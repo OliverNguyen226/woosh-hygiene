@@ -6,7 +6,7 @@ const Resource = () => {
     <div class="bg-[#D6EADF] w-screen h-screen flex items-center flex-col overflow-scroll pb-24">
       <div class="flex items-center h-28">
         <img src="/wooshLogo.png" class="mt-10 mb-6 w-20 h-20 mr-10" />
-        <h1 class="text-[#5F7BB1] headingFont ">Resources</h1>
+        <h1 class="text-[#5F7BB1] text-3xl headingFont">Resources</h1>
       </div>
 
       <div className="md:w-6/12">

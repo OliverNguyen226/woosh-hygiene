@@ -3,9 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.bodyFont {
+* {
   font-family: "Comfortaa", cursive;
-  font-size: 24px;
 }
 
 .headingFont {
