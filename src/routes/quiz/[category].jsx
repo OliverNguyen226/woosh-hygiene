@@ -1,5 +1,5 @@
 import { createSignal } from "solid-js";
-import { useParams } from "solid-start";
+import { useParams, useNavigate } from "solid-start";
 import Nav from "~/components/Nav";
 import Result from "~/components/Result";
 import db from "~/db.json";
@@ -24,8 +24,12 @@ export default function Quiz() {
       setTab("result");
     }
   };
+  const navigate = useNavigate();
 
   const previousQuestion = () => {
+    if (currentQuestion() == 0) {
+      navigate("/quizcategory", { replace: true });
+    }
     if (currentQuestion() > 0) {
       setCurrentQuestion(currentQuestion() - 1);
     }
@@ -39,7 +43,7 @@ export default function Quiz() {
     if (tab === "questions") {
       return (
         <div class="bg-[#D6EADF] w-screen flex m-auto items-center flex-col text-center pb-40">
-          <div class="flex items-center justify-center text-3xl">
+          <div class="flex items-center justify-center text-3xl mt-4">
             <img src="/SmallLogo.png" />
             <h1 class="text-[#5F7BB1] headingFont">
               Quiz -{" "}
@@ -48,7 +52,7 @@ export default function Quiz() {
             </h1>
           </div>
           <div class="w-screen max-w-xl">
-            <p class="my-4 text-xl">{questions[currentQuestion()].text}</p>
+            <p class="my-4 text-xl mx-4">{questions[currentQuestion()].text}</p>
             <ul class="bg-[#F1F7FF] p-4">
               {questions[currentQuestion()].answers.map((answer) => (
                 <li class="flex items-center justify-between border-b border-black last:border-0 p-8">
@@ -98,7 +102,7 @@ export default function Quiz() {
     } else if (tab === "answers") {
       return (
         <div class="bg-[#D6EADF] w-screen flex m-auto items-center flex-col text-center pb-40">
-          <div class="flex items-center justify-center text-3xl">
+          <div class="flex items-center justify-center text-3xl mt-4">
             <img src="/SmallLogo.png" />
             <div class="text-left pl-4">
               <h1 class="text-[#5F7BB1] headingFont">Your Answers</h1>
@@ -108,7 +112,7 @@ export default function Quiz() {
 
           {questions.map((question) => (
             <div class="w-screen max-w-xl flex flex-col items-center">
-              <p class="my-4 text-xl">{question.text}</p>
+              <p class="my-4 text-xl mx-4">{question.text}</p>
               {question.result?.isCorrect ? (
                 <img src="/correct.png" class="w-8"></img>
               ) : (
@@ -117,7 +121,7 @@ export default function Quiz() {
               <ul class="bg-[#F1F7FF] mt-4">
                 {question.answers.map((answer) => (
                   <li
-                    class={`flex items-center justify-between border-b border-black first:pt-4 last:border-0 last:pb-4 px-4 p-2 ${
+                    class={`w-screen flex items-center justify-between border-b border-black first:pt-4 last:border-0 last:pb-4 px-6 p-2 ${
                       answer.isCorrect ? "bg-[#AFFF71]" : ""
                     }`}
                   >

@@ -6,7 +6,7 @@ export default function Instruction() {
     <nav class="bg-[#D6EADF]">
       <div class="flex flex-row  my-auto items-center justify-center mb-3 py-6">
         <img class="logo" src="SmallLogo.png" alt="" />
-        <h1 class="text-[#5F7BB1] headingFont">Instructions </h1>
+        <h1 class="text-[#5F7BB1] ml-4 headingFont">Instructions </h1>
       </div>
       <nav class="flex flex-col my-auto items-center justify-around">
         <div class="py-6 border-b border-black flex flex-col items-center justify-center">
@@ -19,7 +19,7 @@ export default function Instruction() {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <h3 class="text-[#1256D9] text-xl text-center">
+          <h3 class="text-[#1256D9] text-xl text-center mt-4">
             Learn how to wash your hands properly
           </h3>
         </div>
@@ -33,7 +33,7 @@ export default function Instruction() {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <h3 class="text-[#1256D9] text-xl">
+          <h3 class="text-[#1256D9] text-xl mt-4">
             Learn how to wash your hair properly
           </h3>
         </div>
@@ -47,7 +47,7 @@ export default function Instruction() {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <h3 class="text-[#1256D9] text-xl">
+          <h3 class="text-[#1256D9] text-xl mt-4">
             Learn how to wash your feet properly
           </h3>
         </div>
@@ -61,7 +61,7 @@ export default function Instruction() {
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-          <h3 class="text-[#1256D9] text-xl">Learn proper oral hygiene</h3>
+          <h3 class="text-[#1256D9] text-xl mt-4">Learn proper oral hygiene</h3>
         </div>
       </nav>
       <br />

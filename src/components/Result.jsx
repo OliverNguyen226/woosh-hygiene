@@ -35,7 +35,7 @@ export default function Result({ score, onShowAnswers }) {
       <img src={result.img} class="mt-12 mb-6 w-40 h-40" />
       <p class="text-[#000000] text-4xl mb-6">{score}/10</p>
       <p class="text-3xl">{result.type} Answers</p>
-      <p class="underline" onClick={handleShowAnswers}>
+      <p class="underline cursor-pointer" onClick={handleShowAnswers}>
         Check out your answers!
       </p>
       <div class="text-[#1256D9] mt-12 mb-12 w-1/2 text-xl">

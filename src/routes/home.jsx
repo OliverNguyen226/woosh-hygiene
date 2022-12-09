@@ -5,7 +5,6 @@ import Nav from "~/components/Nav";
 
 export default function Home() {
   return (
-    // <div className="flex justify-center items-center flex-col ">
     <div class="flex flex-col items-center justify-center bg-[#D6EADF] h-screen w-screen font-comfortaa px-8">
       <img src="../SmallLogo.png" alt="small logo" class="-mt-16" />
 
@@ -28,6 +27,5 @@ export default function Home() {
       </A>
       <Nav />
     </div>
-    // </div>
   );
 }
