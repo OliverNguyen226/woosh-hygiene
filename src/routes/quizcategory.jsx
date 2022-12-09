@@ -1,7 +1,7 @@
 import Nav from "~/components/Nav";
 import { A } from "solid-start";
 
-const QuizCategory = () => {
+export default function QuizCategory() {
   return (
     <div class="bg-[#D6EADF] w-screen h-screen flex m-auto items-center  flex-col -my-4">
       <img src="/wooshLogo.png" class="mt-12 mb-6 w-20 h-20" />
@@ -40,6 +40,4 @@ const QuizCategory = () => {
       <Nav />
     </div>
   );
-};
-
-export default QuizCategory;
+}

@@ -1,7 +1,7 @@
 import Nav from "~/components/Nav";
 import { A } from "solid-start";
 
-const Resource = () => {
+export default function Resource() {
   return (
     <div class="bg-[#D6EADF] w-screen h-screen flex items-center flex-col overflow-scroll pb-24">
       <div class="flex items-center h-28">
@@ -113,6 +113,4 @@ const Resource = () => {
       <Nav />
     </div>
   );
-};
-
-export default Resource;
+}

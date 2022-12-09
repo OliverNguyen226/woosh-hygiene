@@ -3,77 +3,103 @@
     {
       "text": "Water flosser can remove the biofilm from your teeth surfaces.",
       "answers": [
-        { "text": "True", "isCorrect": true },
-        { "text": "False", "isCorrect": false }
+        { "id": 0, "text": "True", "isCorrect": true },
+        { "id": 1, "text": "False", "isCorrect": false }
       ]
     },
     {
       "text": "WHO recommends that people should brush teeth ______ time(s) a day.",
       "answers": [
-        { "text": "At least one-time", "isCorrect": false },
-        { "text": "At least two times", "isCorrect": true },
-        { "text": "At least three times", "isCorrect": false },
-        { "text": "As much as you can", "isCorrect": false }
+        { "id": 0, "text": "At least one-time", "isCorrect": false },
+        { "id": 1, "text": "At least two times", "isCorrect": true },
+        { "id": 2, "text": "At least three times", "isCorrect": false },
+        { "id": 3, "text": "As much as you can", "isCorrect": false }
       ]
     },
     {
       "text": "How often you should floss to maintain good oral hygiene?",
       "answers": [
-        { "text": "Once a day", "isCorrect": true },
-        { "text": "Once a week", "isCorrect": false },
-        { "text": "Once a month", "isCorrect": false },
-        { "text": "When I think I need to", "isCorrect": false }
+        { "id": 0, "text": "Once a day", "isCorrect": true },
+        { "id": 1, "text": "Once a week", "isCorrect": false },
+        { "id": 2, "text": "Once a month", "isCorrect": false },
+        { "id": 3, "text": "When I think I need to", "isCorrect": false }
       ]
     },
     {
       "text": "Brushing teeth right after eating is good for oral health",
       "answers": [
-        { "text": "True", "isCorrect": false },
-        { "text": "False", "isCorrect": true }
+        { "id": 0, "text": "True", "isCorrect": false },
+        { "id": 1, "text": "False", "isCorrect": true }
       ]
     },
     {
       "text": "Brushing can clean _____ of teeth surfaces?",
       "answers": [
-        { "text": "50%", "isCorrect": false },
-        { "text": "60%", "isCorrect": false },
-        { "text": "80%", "isCorrect": true },
-        { "text": "100%", "isCorrect": false }
+        { "id": 0, "text": "50%", "isCorrect": false },
+        { "id": 1, "text": "60%", "isCorrect": false },
+        { "id": 2, "text": "80%", "isCorrect": true },
+        { "id": 3, "text": "100%", "isCorrect": false }
       ]
     },
     {
       "text": "How often should you replace your toothbrush?",
       "answers": [
-        { "text": "Once per year", "isCorrect": false },
-        { "text": "Every 5-6 months", "isCorrect": true },
-        { "text": "Every 3-4 months", "isCorrect": false },
-        { "text": "Every 8-9 months", "isCorrect": false }
+        { "id": 0, "text": "Once per year", "isCorrect": false },
+        { "id": 1, "text": "Every 5-6 months", "isCorrect": true },
+        { "id": 2, "text": "Every 3-4 months", "isCorrect": false },
+        { "id": 3, "text": "Every 8-9 months", "isCorrect": false }
       ]
     },
     {
       "text": "How long should you spend brushing your teeth?",
       "answers": [
-        { "text": "30 seconds", "isCorrect": false },
-        { "text": "One minute", "isCorrect": true },
-        { "text": "Two minutes", "isCorrect": false },
-        { "text": "Four minutes", "isCorrect": false }
+        { "id": 0, "text": "30 seconds", "isCorrect": false },
+        { "id": 1, "text": "One minute", "isCorrect": true },
+        { "id": 2, "text": "Two minutes", "isCorrect": false },
+        { "id": 3, "text": "Four minutes", "isCorrect": false }
       ]
     },
     {
       "text": "Mouthwashes with fluoride help protect tooth enamel and prevent cavities.",
       "answers": [
-        { "text": "True", "isCorrect": true },
-        { "text": "False", "isCorrect": false }
+        { "id": 0, "text": "True", "isCorrect": true },
+        { "id": 1, "text": "False", "isCorrect": false }
       ]
     },
     {
       "text": "It is very important for you to include your tongue as part of your dental hygiene focus is the fact that it traps bacteria.",
       "answers": [
-        { "text": "True", "isCorrect": true },
-        { "text": "False", "isCorrect": false }
+        { "id": 0, "text": "True", "isCorrect": true },
+        { "id": 1, "text": "False", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the most effective way to brush your teeth?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Use a soft-bristled toothbrush and brush in a circular motion",
+          "isCorrect": true
+        },
+        {
+          "id": 1,
+          "text": "Use a hard-bristled toothbrush and brush in a back and forth motion",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "text": "Use a medium-bristled toothbrush and brush in a circular motion",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Use a medium-bristled toothbrush and brush in a back and forth motion",
+          "isCorrect": false
+        }
       ]
     }
   ],
+
   "Hand": [
     {
       "text": "The appropriate times to wash hands is important than a certain number of times each day.",
@@ -291,7 +317,7 @@
           "text": "Use a deep conditioning treatment",
           "isCorrect": true
         },
-        { "id": 1, "text": "Cut them off with scissors", "isCorrect": true },
+        { "id": 1, "text": "Cut them off with scissors", "isCorrect": false },
         { "id": 2, "text": "Use a hair straightener", "isCorrect": false },
         { "id": 3, "text": "Use a lot of hair gel", "isCorrect": false }
       ]
@@ -416,7 +442,7 @@
         {
           "id": 2,
           "text": "Rub the corn with a pumice stone",
-          "isCorrect": true
+          "isCorrect": false
         },
         { "id": 3, "text": "Ignore the corn", "isCorrect": false }
       ]
@@ -484,6 +510,31 @@
         },
         { "id": 2, "text": "Ignore the sprain", "isCorrect": false },
         { "id": 3, "text": "Massage the affected area", "isCorrect": false }
+      ]
+    },
+    {
+      "text": "What is the best way to care for your feet?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "Soak your feet in hot water for at least 15 minutes every day",
+          "isCorrect": false
+        },
+        {
+          "id": 1,
+          "text": "Wear socks and shoes that fit properly and are made of breathable materials",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "text": "Apply moisturizer to your feet every day",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "text": "Use a pumice stone to exfoliate the skin on your feet every day",
+          "isCorrect": false
+        }
       ]
     }
   ]

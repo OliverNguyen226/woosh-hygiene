@@ -1,6 +1,6 @@
 import { A } from "solid-start";
 
-const Nav = () => {
+export default function Nav() {
   return (
     <div class="flex bg-[#9FC0FF] w-screen h-24 fixed bottom-0 justify-around p-2 overflow-auto">
       <A href="/home">
@@ -39,6 +39,4 @@ const Nav = () => {
       </A>
     </div>
   );
-};
-
-export default Nav;
+}

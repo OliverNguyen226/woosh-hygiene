@@ -3,7 +3,7 @@ import { A } from "solid-start";
 import BigButton from "~/components/BigButton";
 import Nav from "~/components/Nav";
 
-function Home() {
+export default function Home() {
   return (
     // <div className="flex justify-center items-center flex-col ">
     <div class="flex flex-col items-center justify-center bg-[#D6EADF] h-screen w-screen font-comfortaa px-8">
@@ -31,5 +31,3 @@ function Home() {
     // </div>
   );
 }
-
-export default Home;
